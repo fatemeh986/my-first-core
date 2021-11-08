@@ -1,0 +1,6 @@
+@import "../../theme";
+.main{
+    background-color: #eee;
+    height: calc(100% - #{$header_height} - #{$footer_height});
+    width: 100%;
+}

@@ -1,0 +1,22 @@
+@import "../../theme";
+.header{
+   display: flex;
+   padding: 1% 2%;
+   background-color: #000;
+   height: $header_height;
+   align-items: center;
+   &__menu{
+       display: inline;
+       padding: 0.5%;
+    & a{
+        padding: 0.5rem;
+        color: red;
+        text-decoration: unset;
+    }
+   }
+   &__logo{
+       height: 40px;
+       width: auto;
+       //align-self: center;
+   }
+};

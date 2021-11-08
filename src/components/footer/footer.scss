@@ -1,0 +1,7 @@
+@import "../../theme";
+.footer{
+    display:grid;
+    background-color: red;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: $footer_height;
+}
