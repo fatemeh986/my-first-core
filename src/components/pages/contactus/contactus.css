@@ -1,0 +1,26 @@
+.contactform {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.contactform__field {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contactform__input {
+  width: 100%;
+}
+
+.addbtn {
+  background-color: rgba(0, 89, 255, 0.712);
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 0 4%;
+}
+/*# sourceMappingURL=contactus.css.map */

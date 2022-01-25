@@ -1,15 +1,43 @@
 import React from "react";
-import Logo from "./logo.png"
+import Logo from "./logo.png";
 
-export const Header = () => {
+export const Header = ({ setTab }) => {
   return (
     <div className="header">
-        <img src={Logo} alt="" className="header__logo"/>
+      <div className="header__top">
+
+      </div>
+      <img src={Logo} alt="" className="header__logo" />
       <p className="header__menu">
-        <a href="#fatemeh">fatemeh</a>
-        <a href="#aboutus">about us</a>
-        <a href="#contactus">contact us</a>
-        </p>
+        <a
+          onClick={() => {
+            setTab(0);
+          }}
+        >
+          Home
+        </a>
+        <a
+          onClick={() => {
+            setTab(1);
+          }}
+        >
+          about us
+        </a>
+        <a
+          onClick={() => {
+            setTab(2);
+          }}
+        >
+          contact us
+        </a>
+        <a
+          onClick={() => {
+            setTab(3);
+          }}
+        >
+          slideshow
+          </a>  
+      </p>
     </div>
   );
 };
